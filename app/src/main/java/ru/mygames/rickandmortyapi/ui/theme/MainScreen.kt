@@ -174,7 +174,6 @@ fun FilterScreen(
             onItemSelected = { selectedGender = it }
         )
 
-
         Spacer(modifier = Modifier.height(8.dp))
         Text("Вид:")
         OutlinedTextField(
