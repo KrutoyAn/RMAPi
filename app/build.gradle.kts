@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    id("kotlin-kapt") // ⬅️ добавь эту строку
+    id("kotlin-kapt")
 }
 
 android {
@@ -48,7 +48,9 @@ dependencies {
     implementation("androidx.compose.ui:ui:1.5.0")
     implementation("androidx.activity:activity-compose:1.8.0")
     implementation("io.coil-kt:coil-compose:2.4.0")
+
     kapt("androidx.room:room-compiler:2.6.0")
+
     implementation ("androidx.compose.material:material-icons-extended:1.6.0")
     // Accompanist
     implementation("com.google.accompanist:accompanist-swiperefresh:0.30.1")

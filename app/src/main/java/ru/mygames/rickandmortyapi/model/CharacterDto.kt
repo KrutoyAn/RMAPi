@@ -5,12 +5,21 @@ data class CharacterDto(
     val name: String,
     val status: String,
     val species: String,
+    val type: String,
     val gender: String,
+    val origin: Origin,
+    val location: Location,
     val image: String,
-    val origin: LocationDto,
-    val location: LocationDto
+    val episode: List<String>,
+    val created: String
 )
 
-data class LocationDto(
-    val name: String
+data class Origin(
+    val name: String,
+    val url: String
+)
+
+data class Location(
+    val name: String,
+    val url: String
 )

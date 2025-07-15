@@ -165,7 +165,6 @@ fun FilterScreen(
             selectedItem = selectedStatus,
             onItemSelected = { selectedStatus = it }
         )
-
         Spacer(modifier = Modifier.height(8.dp))
         Text("Пол:")
         DropdownMenuComponent(
