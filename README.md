@@ -54,5 +54,5 @@ rickandmortyapi/
 ---
 
 ### 👤 [Автор](https://t.me/Andrei_rR11)
-- Telegram: @adei2821
+- Telegram: @Andrei_rR11
 
