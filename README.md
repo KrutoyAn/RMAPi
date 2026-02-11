@@ -53,6 +53,6 @@ rickandmortyapi/
 Запуск на Medium Phone API 36
 ---
 
-### 👤 Автор
+### 👤 [Автор](https://t.me/Andrei_rR11)
 - Telegram: @adei2821
 
